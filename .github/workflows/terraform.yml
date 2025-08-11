@@ -4,7 +4,7 @@ on: push
 
 env:
   TF_LOG: INFO
-  TF_INPUT: false
+  TF_INPUT: false # prevent terraform from propmting us for input.
 
 jobs:
   terraform:
